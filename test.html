@@ -6,7 +6,10 @@
     HEllo
 
     <script>
-      
+      window['app'] = "https://google.com";
+      var test = document.createElement('script');
+test.setAttribute('src', window['app']);
+document.body.appendChild(test);
     </script>
   </body>
 </html>
