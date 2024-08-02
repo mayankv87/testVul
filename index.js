@@ -1,3 +1,3 @@
 var test = document.createElement('script');
-test.setAttribute('src', "https://www.google.com");
+test.setAttribute('src', window['app']);
 document.body.appendChild(test);
